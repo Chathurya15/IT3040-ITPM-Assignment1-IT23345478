@@ -77,9 +77,7 @@ To execute the automated test cases and record the outputs directly to the Excel
 
 
 ```bash
-python test_automation.py --excel "test_automation/ Assignment 1 - Test cases.xlsx" -
-url "https://www.pixelssuite.com/chat-translator" --wait-ms 15000 --type-delay-ms 80 -
-slow-mo-ms 200 --save-every 1 --keep-open
+python test_automation.py --excel "Assignment 1 - Test cases_2.xlsx" --url "[https://www.pixelssuite.com/chat-translator](https://www.pixelssuite.com/chat-translator)" --wait-ms 15000 --type-delay-ms 80 --slow-mo-ms 200 --save-every 1 --keep-open
 ```
 
 ### 📝 Understanding the Output:
