@@ -25,13 +25,14 @@ All tests are executed using **Python 3.12** utilizing the university-provided a
     * **In the Terminal (Console):** You will see `-> FAIL` printed for the test rows. 
     * **In the Excel File:** The script will automatically record the `Status` as `FAIL`.
     
-    **This is INTENTIONAL.** A "FAIL" status proves that our automation successfully caught the translation bug and fulfilled the negative test case requirement.
+    **This is INTENTIONAL** A "FAIL" status proves that our automation successfully caught the translation bug and fulfilled the negative test case requirement.
 
 ---
 
 ## 🛠️ Step 1: Prerequisites
 Before running the project, make sure the following software is installed on your system:
-1.  **Python 3.11 or 3.12**: [Download Here](https://www.python.org/downloads/) *(Crucial: Ensure the "Add Python.exe to PATH" box is checked during installation).*
+1.  **Python 3.11 or 3.12**: [Download Here](https://www.python.org/downloads/) 
+*(Crucial: Ensure the "Add Python.exe to PATH" box is checked during installation).*
 2.  **Google Chrome**: Installed and up to date.
 3.  **VS Code**: [Download Here](https://code.visualstudio.com/) (Recommended editor).
 
@@ -76,7 +77,9 @@ To execute the automated test cases and record the outputs directly to the Excel
 
 
 ```bash
-py -3.12 test_automation.py --excel "Assignment 1 - Test cases_2.xlsx" --url "[https://www.pixelssuite.com/chat-translator](https://www.pixelssuite.com/chat-translator)" --wait-ms 15000 --type-delay-ms 80 --slow-mo-ms 200 --save-every 1 --keep-open
+python test_automation.py --excel "test_automation/ Assignment 1 - Test cases.xlsx" -
+url "https://www.pixelssuite.com/chat-translator" --wait-ms 15000 --type-delay-ms 80 -
+slow-mo-ms 200 --save-every 1 --keep-open
 ```
 
 ### 📝 Understanding the Output:
