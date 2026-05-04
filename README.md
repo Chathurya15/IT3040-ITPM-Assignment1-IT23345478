@@ -47,10 +47,10 @@ python --version
 
 Follow these steps carefully to configure the Python environment:
 1.  **Download** this repository as a ZIP file 
-2.  **Extract (Unzip)** and Save the ZIP file to your D: drive and extract
+2.  **Extract (Unzip)** and Save the ZIP file to your D: drive
 3.  Open **Visual Studio Code**.
-4.  Go to **File → Open Folder** and select the extracted project folder.
-5.  In VS Code, go to the top menu: **Terminal → New Terminal**.
+4.  Go to **File → Open Folder** and select the extracted project folder
+5.  In VS Code, go to the top menu: **Terminal → New Terminal**
 6.  Paste the following commands into the terminal one by one and press **Enter**:
 
 **Update pip:**
